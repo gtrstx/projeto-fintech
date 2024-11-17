@@ -1,0 +1,426 @@
+body {
+    background-color: #545454;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #545454;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.menu-in {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.img-log {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.img-login{
+    width: 30px;
+    height: 30px;
+}
+
+.li-log {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0px 50px 0px 0px;
+}
+
+.login{
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #E1BE64;
+}
+
+.login:hover {
+    color: #ede191;
+}
+
+.btn-cad {
+    margin: 0px 50px 0px 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-cadastro {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: #E1BE64;
+    color: #545454;
+}
+
+.baner-in {
+    width: 100%;
+    height: 55%;
+    position: absolute;
+}
+
+.baner1 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.img-baner{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-bn {
+    margin: 50px 0px 0px 40px;
+    width: 35%;
+    height: 50%;
+    font-size: 26px;
+    color: #E1BE64;
+    font-family: 'Roboto';
+}
+
+.btn-baner {
+    width: 30%;
+    height: 20%;
+}
+
+.btn-ba{
+    margin: 80px 0px 0px 40px;
+    border-radius: 50px;
+    background-color: #E1BE64;
+    color: #545454;
+    font-size: 30px;
+    font-family: 'Roboto';
+    width: 100%;
+    height: 100%;
+}
+
+.info-in {
+    width: 100%;
+    height: 50%;
+    margin: 600px 0px 0px 0px;
+}
+
+.titulo-info1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: #E1BE64;
+}
+
+.t1 {
+    width: 100%;
+}
+
+.tr1{
+    width: 100%;
+}
+
+.th1{
+    font-size: 20px;
+    color: #e8e6e6;
+    font-family: 'Roboto';
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafo1{
+    margin: 50px 0px 0px 250px;
+    width: 70%;
+    text-indent: 30px;
+}
+
+.th2{
+    width: 50%;
+    justify-content: center;
+}
+
+.primo {
+    margin: 100px 100px 0px 0px;
+    width: 600px;
+    height: 350px;
+    border-radius: 35px;
+}
+
+.btn-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.btn{
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #E1BE64;
+    font-family: 'Roboto';
+    color: #545454;
+    font-size: 25px;
+}
+
+.div-filiais {
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+}
+
+.filiais {
+    display: flex;
+    font-size: 50px;
+    color: #E1BE64;
+    font-family: 'Roboto';
+    justify-content: center;
+}
+
+.t2 {
+    width: 100%;
+}
+
+.tr2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 0px 0px 100px 0px;
+}
+
+.c6 {
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+}
+
+.b3 {
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+}
+
+.clear {
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+}
+
+.final {
+    display: flex;
+    background-color: #232323;
+    width: 100%;
+}
+
+.info-esquerda {
+    width: 25%;
+    height: 100%;
+    margin: 0px 0px 0px 150px;
+}
+
+.imagem-esquerda {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-esquerda {
+    width: 250px;
+    height: 250px;
+}
+
+.descricao-final {
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.redes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.link-f {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.link-f img {
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.link-f .houver {
+    opacity: 0; /* A imagem dourada fica oculta inicialmente */
+}
+
+.link-f:hover .houver {
+    opacity: 1; /* Exibe a imagem dourada ao passar o mouse */
+}
+
+.link-f:hover .original {
+    opacity: 0; /* Oculta a imagem preta ao passar o mouse */
+}
+
+.link-i {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.link-i img {
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.link-i .houver {
+    opacity: 0; /* A imagem dourada fica oculta inicialmente */
+}
+
+.link-i:hover .houver {
+    opacity: 1; /* Exibe a imagem dourada ao passar o mouse */
+}
+
+.link-i:hover .original {
+    opacity: 0; /* Oculta a imagem preta ao passar o mouse */
+}
+
+.link-y {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.link-y img {
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.link-y .houver {
+    opacity: 0; /* A imagem dourada fica oculta inicialmente */
+}
+
+.link-y:hover .houver {
+    opacity: 1; /* Exibe a imagem dourada ao passar o mouse */
+}
+
+.link-y:hover .original {
+    opacity: 0; /* Oculta a imagem preta ao passar o mouse */
+}
+
+.info-empresa {
+    width: 40%;
+    height: 100%;
+    margin: 50px 0px 0px 0px;
+}
+
+.empresa {
+    height: 100%;
+    margin: 0px 0px 50px 0px;
+}
+
+.links-e{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Roboto';
+    color: black;
+    gap: 8px;
+}
+
+.educacao {
+    height: 100%;
+    margin: 0px 0px 50px 0px;
+}
+
+.links-edu{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Roboto';
+    color: black;
+    gap: 8px;
+}
+
+.parceiros {
+    height: 100%;
+    margin: 0px 0px 100px 0px;
+}
+
+.links-par{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Roboto';
+    color: black;
+    gap: 8px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #E1BE64;
+}
+
+.info-direita {
+    width: 20%;
+}
+
+.suporte {
+    margin: 50px 0px 0px 0px;
+    height: 50%;
+}
+
+.info-final {
+    height: 10%;
+    display: grid;
+    width: 100%;
+    height: 30%;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Roboto';
+    color: black;
+    gap: 8px;
+}

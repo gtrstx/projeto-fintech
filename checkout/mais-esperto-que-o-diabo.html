@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./img/icone-dinheiro.png">
+</head>
+<body>
+    <div class="checkout-container">
+        <!-- Coluna esquerda: Formulário -->
+        <form action="../agradecimento/agradecimento.html" method="post" class="checkout-left">
+            <h2>Finalizar Compra</h2>
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="address">Endereço</label>
+            <input type="text" id="address" placeholder="Digite seu endereço">
+
+            <label for="payment">Forma de Pagamento</label>
+            <select id="payment">
+                <option value="credit-card">Cartão de Crédito</option>
+                <option value="debit-card">Cartão de Débito</option>
+                <option value="boleto">Boleto Bancário</option>
+                <option value="pix">PIX</option>
+            </select>
+
+            <label for="card-number">Número do Cartão</label>
+            <input type="text" id="card-number" placeholder="Digite o número do cartão">
+
+            <label for="expiration">Validade (MM/AA)</label>
+            <input type="text" id="expiration" placeholder="MM/AA">
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" placeholder="Código de segurança">
+
+            <button type="submit">Confirmar Compra</button>
+        </form>
+
+        <!-- Coluna direita: Detalhes do Produto -->
+        <div class="checkout-right">
+            <img src="./img/mais-esperto-que-o-diabo.png" alt="Imagem do Produto" class="product-image">
+            <div class="product-price">R$ 32,90</div>
+        </div>
+    </div>
+</body>
+</html>

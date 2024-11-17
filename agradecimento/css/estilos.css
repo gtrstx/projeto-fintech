@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #555;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #E1BE64;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #E1BE64;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #E1BE64;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #333;
+    color: #E1BE64;
+}

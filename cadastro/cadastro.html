@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../src/img/Aurea-removebg-preview.png">
+    <title>Aurea</title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset-cadastro.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="dados">
+            <div class="logo"><a class="img-logo" href="../index.html"><img class="img-logo" src="../src/img/Aurea-removebg-preview.png" alt="Logo da Aurea"></a></div>
+            <div class="aviso">
+                <h1>Crie sua conta</h1>
+                <p>Tenha acesso a todos os nossos produtos.</p>
+            </div>
+
+            <form action="../login/login.html" onsubmit="return validarSenha()" id="login-form" method="post">
+                <label for="name">Nome Completo:</label>
+                <input minlength="10" pattern="[A-Za-zÀ-ÿ\s]+"  type="text" id="name" name="name" placeholder="Digite seu Nome Completo" required><br><br>
+
+                <label for="dataNascimento">Data de nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
+
+                <label for="senha">e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
+
+                <label for="senha">Confirmar Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Confirme sua senha" required>
+            <br>
+            <br>
+
+            <div class="checkbox">
+                    <input type="checkbox" name="termos" required>
+                    Eu concordo com os termos e condições.
+            </div>
+            <br>
+
+                <div class="btn">
+                    <button type="submit"><p>Criar Conta</p></button>
+
+                </div>
+                <br>
+                <br>
+                <div class="cadastro">
+                    <p>Já tem uma conta na Aurea? <a href="../login/login.html">Faça o login</a></p>
+                </div>    
+            </form>
+        </div>
+    </div>
+
+    <script src="./src/js/cadastro.js"></script>
+</body>
+</html>

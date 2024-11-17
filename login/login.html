@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../src/img/Aurea-removebg-preview.png">
+    <title>Aurea</title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset-log.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="dados">
+            <div class="logo"><a class="img-logo" href="../index.html"><img class="img-logo" src="../src/img/Aurea-removebg-preview.png" alt="Logo da Aurea"></a></div>
+            <div class="aviso">
+                <h1>Login</h1>
+                <p>Acesse a sua conta para visualizar nossos produtos.</p>
+            </div>
+
+            <form id="login-form" method="post">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <div class="esqueci">
+                <a href="../esqueci-senha/recuperador-senha.html">Esqueci minha senha</a>
+            </div>
+            <br>
+
+                <div class="btn">
+                    <button onclick="verificarLogin()" type="button"><p>Acessar os produtos</p></button>
+                </div>
+                <br>
+                <br>
+                <div class="cadastro">
+                    <p>Ainda não tem uma conta na Aurea? <a href="../cadastro/cadastro.html">Crie sua conta agora</a></p>
+                </div>    
+            </form>
+        </div>
+    </div>
+
+    <script src="./src/js/login.js"></script>
+</body>
+</html>

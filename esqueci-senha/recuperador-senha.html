@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../src/img/Aurea-removebg-preview.png">
+    <title>Aurea</title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset-recuperador-senha.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="dados">
+            <div class="logo"><a class="img-logo" href="../index.html"><img class="img-logo" src="../src/img/Aurea-removebg-preview.png" alt="Logo da Aurea"></a></div>
+            <div class="aviso">
+                <h1>Recuperação de senha</h1>
+                <p>Digite o e-mail do seu login e receba instruções para
+                    recuperar sua senha.</p>
+            </div>
+
+            <form id="login-form" method="post">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+            <br>
+
+                <div class="btn">
+                    <button type="submit"><p>Recuperar senha</p></button>
+                    <button onclick="redirecionar()" type="button"><p>Voltar ao login</p></button>
+                </div>
+                <br>
+                <br>
+                <div class="cadastro">
+                    <p>Ainda não tem uma conta na Aurea? <a href="../cadastro/cadastro.html">Crie sua conta agora</a></p>
+                </div>    
+            </form>
+        </div>
+    </div>
+
+    <script src="./src/js/recuperador-de-senha.js"></script>
+</body>
+</html>

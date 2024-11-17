@@ -1,0 +1,143 @@
+@media (max-width: 1645px) {
+    .c6 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .b3 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .clear {
+        width: 350px;
+        height: 350px;
+    }
+
+    .tr2 {
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1605px) {
+    .paragrafo1 {
+        margin: 50px 0px 0px 100px;
+    }
+}
+
+@media (max-width: 1481px) {
+   .paragrafo1{
+    text-wrap: 10px;
+    word-spacing: -2px;
+   } 
+}
+
+@media (max-width: 1369px) {
+    .tr2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .th3{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .th4 {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .th5{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    
+    .b3{
+        display: flex;
+        width: 500px;
+        height: 500px;
+    }
+
+    .clear {
+        display: flex;
+        width: 500px;
+        height: 500px;
+    }
+
+    .c6 {
+        display: flex;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1355px) {
+    .tr1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragrafo1 {
+        margin: 0px;
+        font-size: 25px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .th1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .th2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .primo {
+        margin: 100px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .info-esquerda {
+        width: 30%;
+        margin: 0px 0px 0px 50px;
+    }
+
+    .descricao-final {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1060px) {
+    .info-esquerda {
+        display: 35%;
+        margin: 0px 0px 0px 20px;
+    }
+}
+
+@media (max-width: 1012px) {
+    .titulo-bn{
+        font-size: 20px;
+    }
+
+    .titulo-info1{
+        font-size: 30px;
+    }
+
+    .paragrafo1 {
+        font-size: 15px;
+    }
+
+    .t-i{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
